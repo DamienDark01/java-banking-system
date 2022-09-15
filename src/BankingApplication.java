@@ -49,16 +49,15 @@ class BankAccount {
         char option = '\0';
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome " + customerName);
-        System.out.println("Your ID : " + customerId);
-        System.out.println("\n");
-        System.out.println("A. Check balance");
-        System.out.println("B. Deposit");
-        System.out.println("C. Withdraw");
-        System.out.println("D. Previous transaction");
-        System.out.println("E. Exit");
-
         do {
+            System.out.println("Welcome " + customerName);
+            System.out.println("Your ID : " + customerId);
+            System.out.println("\n");
+            System.out.println("A. Check balance");
+            System.out.println("B. Deposit");
+            System.out.println("C. Withdraw");
+            System.out.println("D. Previous transaction");
+            System.out.println("E. Exit");
             System.out.println("==================================================");
             System.out.println("Enter an option: ");
             System.out.println("==================================================");
