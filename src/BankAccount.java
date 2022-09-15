@@ -89,6 +89,11 @@ public class BankAccount {
                     System.out.println("\n");
                     break;
 
+                case 'E':
+                    System.out.println("**************************************************");
+                    System.out.println("------------ Program Terminated . . . ------------");
+                    break;
+
                 default:
                     System.out.println("Invalid input. Please try again!");
                     break;
