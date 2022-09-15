@@ -1,6 +1,15 @@
 import java.util.Scanner;
 
-public class BankAccount {
+public class BankingApplication {
+
+    public static void main(String[] args) {
+        BankAccount obj1 = new BankAccount("Kylo", "C20220101");
+        obj1.showMenu();
+    }
+
+}
+
+class BankAccount {
 
     double balance;
     double previousTransaction;
