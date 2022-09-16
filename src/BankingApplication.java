@@ -3,7 +3,14 @@ import java.util.Scanner;
 public class BankingApplication {
 
     public static void main(String[] args) {
-        BankAccount obj1 = new BankAccount("Kylo", "C20220101");
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Welcome! Please enter your name : ");
+        String name = input.next();
+        System.out.println("Enter your Bank ID : ");
+        String id = input.next();
+
+        BankAccount obj1 = new BankAccount(name, id);
         obj1.showMenu();
     }
 
@@ -50,8 +57,9 @@ class BankAccount {
         Scanner scanner = new Scanner(System.in);
 
         do {
-            System.out.println("Welcome " + customerName);
-            System.out.println("Your ID : " + customerId);
+            System.out.println("\n");
+            System.out.println("Welcome " + customerName + "!");
+            System.out.println("Your Bank ID : " + customerId);
             System.out.println("\n");
             System.out.println("A. Check balance");
             System.out.println("B. Deposit");
