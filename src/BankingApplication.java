@@ -46,7 +46,7 @@ class BankAccount {
     }
 
     void showMenu() {
-        char option = '\0';
+        char option;
         Scanner scanner = new Scanner(System.in);
 
         do {
@@ -92,7 +92,8 @@ class BankAccount {
 
                 case 'D':
                     System.out.println("--------------------------------------------------");
-                    System.out.println("Previous Transaction : " + previousTransaction);
+                    System.out.println("Previous Transaction : ");
+                    getPreviousTransaction();
                     System.out.println("--------------------------------------------------");
                     System.out.println("\n");
                     break;
