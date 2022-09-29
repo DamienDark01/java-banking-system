@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class BankingApplication {
 
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
 
         System.out.println("Welcome! Please enter your name : ");
@@ -12,6 +13,7 @@ public class BankingApplication {
 
         BankAccount obj1 = new BankAccount(name, id);
         obj1.showMenu();
+
     }
 
 }
@@ -24,25 +26,32 @@ class BankAccount {
     String customerId;
 
     BankAccount(String cName, String cId) {
+
         customerName = cName;
         customerId = cId;
+
     }
 
     void deposit(double amount) {
+
         if (amount != 0.0) {
             balance += amount;
             previousTransaction = amount;
         }
+
     }
 
     void withdraw(double amount) {
+
         if (amount != 0.0) {
             balance -= amount;
             previousTransaction = -amount;
         }
+
     }
 
     void getPreviousTransaction() {
+
         if (previousTransaction > 0) {
             System.out.println("Deposited: " + previousTransaction);
         } else if (previousTransaction < 0) {
@@ -50,9 +59,11 @@ class BankAccount {
         } else {
             System.out.println("No transaction has occurred.");
         }
+
     }
 
     void showMenu() {
+
         char option;
         Scanner scanner = new Scanner(System.in);
 
@@ -119,6 +130,7 @@ class BankAccount {
 
         System.out.println("Thank you for using out services!");
         System.out.println("Have a nice day!");
+
     }
 
 }
