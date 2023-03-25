@@ -5,14 +5,19 @@ import java.util.Scanner;
 public class BankingApplication {
   // main method
   public static void main(String[] args) {
+    // creating object to take inputs
     Scanner input = new Scanner(System.in);
 
+    // displaying the prompt and taking inputs
     System.out.println("Welcome! Please enter your name : ");
     String name = input.next();
     System.out.println("Enter your Bank ID : ");
     String id = input.next();
 
+    // creating the necessary BankAccount object
     BankAccount obj1 = new BankAccount(name, id);
+    
+    // calling the showMenu() method via the created object
     obj1.showMenu();
   }
 }
