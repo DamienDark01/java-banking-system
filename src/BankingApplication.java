@@ -48,9 +48,14 @@ class BankAccount {
     }
   }
 
+  // method to withdraw money
   void withdraw(double amount) {
+    // checks whether the amount entered is null
     if (amount != 0.0) {
+      // deducts the amount entered from the balance
       balance -= amount;
+
+      // updating the required variables
       previousTransaction = -amount;
     }
   }
