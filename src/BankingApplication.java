@@ -60,12 +60,21 @@ class BankAccount {
     }
   }
 
+  // method to output the previous transaction
   void getPreviousTransaction() {
-    if (previousTransaction > 0) {
+    if (previousTransaction > 0) // condition to check if the prevois transaction is greater than 0
+    {
+      // output message
       System.out.println("Deposited: " + previousTransaction);
-    } else if (previousTransaction < 0) {
+    } 
+    else if (previousTransaction < 0) // condition to check if the prevois transaction is lesser than 0
+    { 
+      // output message
       System.out.println("Withdrawn: " + Math.abs(previousTransaction));
-    } else {
+    } 
+    else // message to display if no transaction has occured
+    { 
+      // output message
       System.out.println("No transaction has occurred.");
     }
   }
