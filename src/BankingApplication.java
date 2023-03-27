@@ -36,9 +36,14 @@ class BankAccount {
     customerId = cId;
   }
 
+  // method to deposit money
   void deposit(double amount) {
+    // checks whether the amount entered is null
     if (amount != 0.0) {
+      // adds the entered amount to the balance
       balance += amount;
+
+      // updating the required variables
       previousTransaction = amount;
     }
   }
