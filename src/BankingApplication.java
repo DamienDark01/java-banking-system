@@ -79,10 +79,15 @@ class BankAccount {
     }
   }
 
+  // method to show the menu
   void showMenu() {
+    // variables
     char option;
+    
+    // object for taking inputs
     Scanner scanner = new Scanner(System.in);
 
+    // loop to keep the required code block running
     do {
       System.out.println("\n");
       System.out.println("Welcome " + customerName + "!");
