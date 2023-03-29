@@ -89,22 +89,27 @@ class BankAccount {
 
     // loop to keep the required code block running
     do {
+      // welcome message
       System.out.println("\n");
       System.out.println("Welcome " + customerName + "!");
       System.out.println("Your Bank ID : " + customerId);
       System.out.println("\n");
+      // options
       System.out.println("A. Check balance");
       System.out.println("B. Deposit");
       System.out.println("C. Withdraw");
       System.out.println("D. Previous transaction");
       System.out.println("E. Exit");
+      // prompt to take input
       System.out.println("==================================================");
       System.out.println("Enter an option: ");
       System.out.println("==================================================");
       option = scanner.next().charAt(0);
       System.out.println("\n");
 
+      // switch case structure to conditionally check the input
       switch (option) {
+        // option to check balance
         case 'A':
           System.out.println("--------------------------------------------------");
           System.out.println("Balance : " + balance);
@@ -112,6 +117,7 @@ class BankAccount {
           System.out.println("\n");
           break;
 
+        //
         case 'B':
           System.out.println("--------------------------------------------------");
           System.out.println("Enter an amount to deposit : ");
