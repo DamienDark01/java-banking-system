@@ -117,7 +117,7 @@ class BankAccount {
           System.out.println("\n");
           break;
 
-        //
+        // option to enter an amount
         case 'B':
           System.out.println("--------------------------------------------------");
           System.out.println("Enter an amount to deposit : ");
@@ -127,6 +127,7 @@ class BankAccount {
           System.out.println("\n");
           break;
 
+        // option to withdraw an amount
         case 'C':
           System.out.println("--------------------------------------------------");
           System.out.println("Enter an amount to withdraw : ");
