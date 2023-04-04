@@ -111,6 +111,7 @@ class BankAccount {
       switch (option) {
         // option to check balance
         case 'A':
+          // output
           System.out.println("--------------------------------------------------");
           System.out.println("Balance : " + balance);
           System.out.println("--------------------------------------------------");
@@ -119,11 +120,16 @@ class BankAccount {
 
         // option to enter an amount
         case 'B':
+          // output
           System.out.println("--------------------------------------------------");
           System.out.println("Enter an amount to deposit : ");
           System.out.println("--------------------------------------------------");
+          
           double newAmount1 = scanner.nextDouble();
+
+          // method calling
           deposit(newAmount1);
+          
           System.out.println("\n");
           break;
 
