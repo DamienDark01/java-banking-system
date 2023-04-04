@@ -135,9 +135,11 @@ class BankAccount {
 
         // option to withdraw an amount
         case 'C':
+          // output
           System.out.println("--------------------------------------------------");
           System.out.println("Enter an amount to withdraw : ");
           System.out.println("--------------------------------------------------");
+          
           double newAmount2 = scanner.nextDouble();
           withdraw(newAmount2);
           System.out.println("\n");
