@@ -124,7 +124,8 @@ class BankAccount {
           System.out.println("--------------------------------------------------");
           System.out.println("Enter an amount to deposit : ");
           System.out.println("--------------------------------------------------");
-          
+
+          // create object to take inputs
           double newAmount1 = scanner.nextDouble();
 
           // method calling
