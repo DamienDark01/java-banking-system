@@ -140,8 +140,11 @@ class BankAccount {
           System.out.println("--------------------------------------------------");
           System.out.println("Enter an amount to withdraw : ");
           System.out.println("--------------------------------------------------");
-          
+
+          // create object to take inputs
           double newAmount2 = scanner.nextDouble();
+
+          
           withdraw(newAmount2);
           System.out.println("\n");
           break;
