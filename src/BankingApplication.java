@@ -130,7 +130,8 @@ class BankAccount {
 
           // method calling
           deposit(newAmount1);
-          
+
+          // necessary outputs
           System.out.println("\n");
           break;
 
