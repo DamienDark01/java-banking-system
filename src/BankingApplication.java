@@ -116,6 +116,8 @@ class BankAccount {
           System.out.println("Balance : " + balance);
           System.out.println("--------------------------------------------------");
           System.out.println("\n");
+
+          // break statement
           break;
 
         // option to enter an amount
