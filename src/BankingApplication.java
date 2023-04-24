@@ -135,6 +135,8 @@ class BankAccount {
 
           // necessary outputs
           System.out.println("\n");
+
+          // break statement
           break;
 
         // option to withdraw an amount
