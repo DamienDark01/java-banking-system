@@ -151,6 +151,8 @@ class BankAccount {
 
           // method calling
           withdraw(newAmount2);
+
+          // necessary outputs
           System.out.println("\n");
           break;
 
