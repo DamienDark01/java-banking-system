@@ -154,6 +154,8 @@ class BankAccount {
 
           // necessary outputs
           System.out.println("\n");
+
+          // break statement
           break;
 
         case 'D':
