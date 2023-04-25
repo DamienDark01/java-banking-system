@@ -32,6 +32,7 @@ class BankAccount {
 
   // constructor
   BankAccount(String cName, String cId) {
+    // assigning values to the private varibales
     customerName = cName;
     customerId = cId;
   }
