@@ -63,7 +63,8 @@ class BankAccount {
 
   // method to output the previous transaction
   void getPreviousTransaction() {
-    if (previousTransaction > 0) // condition to check if the prevois transaction is greater than 0
+    // condition to check if the prevois transaction is greater than 0
+    if (previousTransaction > 0)
     {
       // output message
       System.out.println("Deposited: " + previousTransaction);
