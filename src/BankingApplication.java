@@ -69,7 +69,8 @@ class BankAccount {
       // output message
       System.out.println("Deposited: " + previousTransaction);
     } 
-    else if (previousTransaction < 0) // condition to check if the prevois transaction is lesser than 0
+    // condition to check if the prevois transaction is lesser than 0
+    else if (previousTransaction < 0) 
     { 
       // output message
       System.out.println("Withdrawn: " + Math.abs(previousTransaction));
