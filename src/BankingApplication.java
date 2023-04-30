@@ -161,6 +161,7 @@ class BankAccount {
           // break statement
           break;
 
+        // option to check previous transaction
         case 'D':
           // output
           System.out.println("--------------------------------------------------");
