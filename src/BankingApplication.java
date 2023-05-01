@@ -169,6 +169,8 @@ class BankAccount {
 
           // calling the method
           getPreviousTransaction();
+
+          // output
           System.out.println("--------------------------------------------------");
           System.out.println("\n");
           break;
