@@ -173,6 +173,8 @@ class BankAccount {
           // output
           System.out.println("--------------------------------------------------");
           System.out.println("\n");
+
+          // break statement
           break;
 
         case 'E':
