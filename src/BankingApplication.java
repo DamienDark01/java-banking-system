@@ -75,7 +75,8 @@ class BankAccount {
       // output message
       System.out.println("Withdrawn: " + Math.abs(previousTransaction));
     } 
-    else // message to display if no transaction has occured
+    // message to display if no transaction has occured
+    else
     { 
       // output message
       System.out.println("No transaction has occurred.");
