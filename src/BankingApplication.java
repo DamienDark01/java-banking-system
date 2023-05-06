@@ -187,6 +187,7 @@ class BankAccount {
           // break statement
           break;
 
+        // default option
         default:
           System.out.println("Invalid input. Please try again!");
           break;
