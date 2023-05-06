@@ -180,6 +180,7 @@ class BankAccount {
 
         // option to close the banking application
         case 'E':
+          // output
           System.out.println("**************************************************");
           System.out.println("------------ Program Terminated . . . ------------");
           break;
