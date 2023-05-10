@@ -191,6 +191,8 @@ class BankAccount {
         default:
           // output
           System.out.println("Invalid input. Please try again!");
+
+          // break statement
           break;
       }
     } while (option != 'E');
