@@ -98,16 +98,20 @@ class BankAccount {
       System.out.println("Welcome " + customerName + "!");
       System.out.println("Your Bank ID : " + customerId);
       System.out.println("\n");
+      
       // options
       System.out.println("A. Check balance");
       System.out.println("B. Deposit");
       System.out.println("C. Withdraw");
       System.out.println("D. Previous transaction");
       System.out.println("E. Exit");
+      
       // prompt to take input
       System.out.println("==================================================");
       System.out.println("Enter an option: ");
       System.out.println("==================================================");
+
+      // taking an input
       option = scanner.next().charAt(0);
       System.out.println("\n");
 
