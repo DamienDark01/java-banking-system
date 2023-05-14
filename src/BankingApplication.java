@@ -199,7 +199,8 @@ class BankAccount {
           // break statement
           break;
       }
-    } while (option != 'E');
+    } // sentianl program line
+      while (option != 'E');
 
     System.out.println("Thank you for using out services!");
     System.out.println("Have a nice day!");
