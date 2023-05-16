@@ -202,7 +202,9 @@ class BankAccount {
     } // sentianl program line
       while (option != 'E');
 
+    // end message
     System.out.println("Thank you for using out services!");
     System.out.println("Have a nice day!");
   }
 }
+// 
