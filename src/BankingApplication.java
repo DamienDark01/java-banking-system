@@ -10,9 +10,9 @@ public class BankingApplication {
 
     // displaying the prompt and taking inputs
     System.out.println("Welcome! Please enter your name : ");
-    String name = input.next();
+    String name = input.nextLine();
     System.out.println("Enter your Bank ID : ");
-    String id = input.next();
+    String id = input.nextLine();
 
     // creating the necessary BankAccount object
     BankAccount obj1 = new BankAccount(name, id);
